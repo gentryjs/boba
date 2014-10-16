@@ -1,2 +1,2 @@
 require('coffee-script/register');
-module.exports = require('./lib/read');
+module.exports = require('./lib/readDir');

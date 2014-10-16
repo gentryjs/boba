@@ -3,13 +3,15 @@ async     = require 'async'
 whitelist = require './whitelist'
 iterate   = require './iterate'
 
-module.exports = (src, dest, opts, done) ->
- 
+module.exports = (src, dest, currentKey, opts, done) ->
+
   fs.readdir src, (err, files) ->
- 
+
+    throw new Error err if err?
+
     if opts.blacklist?
-      files = files.filter (file) -> 
+      files = files?.filter (file) -> 
         whitelist opts.blacklist, file 
 
-    it = async.apply iterate, src, dest, opts
+    it = async.apply iterate, src, dest, currentKey, opts
     async.forEach files, it, (done if done?)
