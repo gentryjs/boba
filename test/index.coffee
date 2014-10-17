@@ -1,5 +1,5 @@
 should = require 'should'
-boba = require '../lib/readDir'
+boba = require '../lib'
 path = require 'path'
 rimraf = require 'rimraf'
 walker = require 'easy-file-walker'
@@ -19,6 +19,11 @@ describe 'boba', ->
       name: 'boba'
       answers:
         persistence: 'REST'
+      package: 
+        name: 'myapp'
+        description: 'foo'
+        org: 'wearefractal'
+        author: 'fractal'
 
     boba './test/templates', './test/boba', null,
       blacklist: ['.DS_Store']

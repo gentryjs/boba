@@ -1,6 +1,6 @@
 {
   "dependencies": {
-    "coffee-script": "*",
+    "coffee-script": "*"
   },
   "scripts": {
     "test": "mocha --compilers coffee:coffee-script/register"

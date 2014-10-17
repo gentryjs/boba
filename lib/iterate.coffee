@@ -1,6 +1,7 @@
 fs          = require 'fs'
 path        = require 'path'
 mkdirp      = require 'mkdirp'
+merge       = require 'lodash.merge'
 isDir       = require './isDir'
 interpolate = require './interpolate'
 
@@ -30,12 +31,21 @@ module.exports = (baseSrc, baseDest, currentKey, opts, file, done) ->
   else
 
     if file.charAt(0) is opts.valChar
-      
-      keyname = path.basename file, path.extname(file)
+      ext = path.extname(file)
+      keyname = path.basename file, ext
       keyname = keyname.substring 1
     
       if opts.key[currentKey] is keyname
-        dest = baseDest + '/' + file.substring 1
+        if ext is '.json'
+          # read
+          json = fs.readFileSync src
+          data = interpolate json.toString(), opts.sandbox
+          obj = JSON.parse data 
+          # merge into package
+          opts.pkg = merge opts.pkg, obj
+          return done()
+        else
+          dest = baseDest + '/' + file.substring 1
       else
         return done()
 

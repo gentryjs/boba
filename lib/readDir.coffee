@@ -2,6 +2,7 @@ fs        = require 'fs'
 async     = require 'async'
 whitelist = require './whitelist'
 iterate   = require './iterate'
+interpolate = require './interpolate'
 
 module.exports = (src, dest, currentKey, opts, done) ->
 
