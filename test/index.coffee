@@ -28,7 +28,6 @@ describe 'boba', ->
     boba './test/templates', './test/boba', null,
       blacklist: ['.DS_Store']
       sandbox: sandbox
-      recursive: true
       key:
         language: 'coffee'
         backend: 'yes'
