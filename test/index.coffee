@@ -19,6 +19,7 @@ describe 'boba', ->
       name: 'boba'
       answers:
         persistence: 'REST'
+        auth: 'facebook'
       package: 
         name: 'myapp'
         description: 'foo'
@@ -30,7 +31,7 @@ describe 'boba', ->
       sandbox: sandbox
       key:
         language: 'coffee'
-        backend: 'yes'
+        server: 'yes'
         auth: 'facebook'
       , (err, res) ->
         # walk dir to compare to expected
