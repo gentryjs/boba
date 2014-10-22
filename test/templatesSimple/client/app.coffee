@@ -1,1 +1,0 @@
-module.exports = 'some app <%= name %>'
