@@ -5,8 +5,8 @@
 ## Information
 
 <table>
-<tr> 
-<td>Package</td><td>doppel</td>
+<tr>
+<td>Package</td><td>boba</td>
 </tr>
 <tr>
 <td>Description</td>
