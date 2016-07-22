@@ -16,7 +16,7 @@
   "devDependencies": {
     "easy-file-walker": "0.0.2",
     "mocha": "2.3.3",
-    "rimraf": "2.4.3",
+    "rimraf": "2.5.4",
     "should": "7.1.1"
   },
   "scripts": {
