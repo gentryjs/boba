@@ -5,14 +5,14 @@
 ## Information
 
 <table>
-<tr>
-<td>Package</td><td>boba</td>
-</tr>
-<tr>
-<td>Description</td>
-<td>clone stuff</td>
-</tr>
-<tr>
+  <tr>
+    <td>Package</td><td>boba</td>
+  </tr>
+  <tr>
+    <td>Description</td>
+    <td>clone stuff</td>
+  </tr>
+  <tr>
 <td>Node Version</td>
 <td>>= 4</td>
 </tr>

@@ -1,4 +1,5 @@
-module.exports = [ 'client',
+module.exports = [
+  'client',
   'package.json',
   'server',
   'client/css',
@@ -51,4 +52,5 @@ module.exports = [ 'client',
   'server/test/user/get.coffee',
   'server/test/user/getAll.coffee',
   'server/test/user/mock.coffee',
-  'server/test/user/patch.coffee' ]
+  'server/test/user/patch.coffee'
+]

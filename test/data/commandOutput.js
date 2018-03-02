@@ -1,4 +1,5 @@
-module.exports = [ 'client',
+module.exports = [
+  'client',
   'server',
   'client/models',
   'client/pages',
@@ -13,4 +14,5 @@ module.exports = [ 'client',
   'server/resources/Todo/get.coffee',
   'server/resources/Todo/getAll.coffee',
   'server/resources/Todo/patch.coffee',
-  'server/resources/Todo/put.coffee' ]
+  'server/resources/Todo/put.coffee'
+]
