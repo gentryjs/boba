@@ -1,6 +1,6 @@
-[![Build Status](https://travis-ci.org/wearefractal/APPNAME.png?branch=master)](https://travis-ci.org/wearefractal/APPNAME)
+[![Build Status](https://travis-ci.org/gentryjs/boba.png?branch=master)](https://travis-ci.org/gentryjs/boba)
 
-[![NPM version](https://badge.fury.io/js/APPNAME.png)](http://badge.fury.io/js/APPNAME)
+[![NPM version](https://badge.fury.io/js/boba.png)](http://badge.fury.io/js/boba)
 
 ## Information
 
