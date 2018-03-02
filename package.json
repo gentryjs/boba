@@ -4,24 +4,21 @@
   "version": "0.0.5",
   "homepage": "http://github.com/gentryjs/boba",
   "repository": "git://github.com/gentryjs/boba.git",
-  "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
+  "author": "funkytek <funkytek@trigram.co> (http://trigram.co)",
   "main": "./index.js",
   "dependencies": {
-    "async": "0.9.2",
-    "coffee-script": "1.10.0",
-    "lodash.merge": "3.3.2",
-    "lodash.template": "3.6.2",
-    "mkdirp": "0.5.1",
-    "ms": "^2.1.1"
+    "async": "^0.9.2",
+    "lodash": "^4.17.5",
+    "mkdirp": "^0.5.1"
   },
   "devDependencies": {
     "easy-file-walker": "0.0.2",
-    "mocha": "2.3.3",
-    "rimraf": "2.4.3",
-    "should": "7.1.1"
+    "mocha": "^2.3.3",
+    "rimraf": "^2.4.3",
+    "should": "^7.1.1"
   },
   "scripts": {
-    "test": "mocha --compilers coffee:coffee-script/register"
+    "test": "mocha --ui exports"
   },
   "engines": {
     "node": ">= 4"
