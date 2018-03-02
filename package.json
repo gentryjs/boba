@@ -1,7 +1,7 @@
 {
   "name": "boba",
   "description": "conditional template cloning",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "homepage": "http://github.com/gentryjs/boba",
   "repository": "git://github.com/gentryjs/boba.git",
   "author": "Fractal <contact@wearefractal.com> (http://wearefractal.com/)",
