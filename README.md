@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.org/gentryjs/boba.png?branch=master)](https://travis-ci.org/gentryjs/boba)
 
-[![NPM version](https://badge.fury.io/js/boba.png)](http://badge.fury.io/js/boba)
+[![NPM version](https://badge.fury.io/js/gentry-boba.png)](http://badge.fury.io/js/gentry-boba)
 
 ## Information
 
@@ -10,18 +10,18 @@
   </tr>
   <tr>
     <td>Description</td>
-    <td>clone stuff</td>
+    <td>conditional cloning</td>
   </tr>
   <tr>
 <td>Node Version</td>
-<td>>= 4</td>
+<td>>= 6</td>
 </tr>
 </table>
 
 ## Usage
 
 ```coffee-script
-NOTHING HERE YET
+see `test`
 ```
 
 ## LICENSE
